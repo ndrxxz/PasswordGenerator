@@ -14,6 +14,6 @@ function copy(){
     let copyPassword = document.getElementById("password");
     copyPassword.select();
     document.execCommand("copy");
-
+    pass.value = "";
     alert("Password copied to the clipboard!")
 }
